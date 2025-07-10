@@ -1,0 +1,44 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Inter", sans-serif; */
+
+/* ===== Common Css ======= */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primary_btn {
+  padding: 12px 36px;
+  border-radius: 10px;
+  background: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+/* ========= Header Section Style Here =========  */
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo a {
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 150%;
+  color: #4e47ff;
+  text-transform: uppercase;
+}
+
+/* ========= Header Section Style Here =========  */
